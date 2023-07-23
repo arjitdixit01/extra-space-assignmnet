@@ -1,0 +1,57 @@
+html{
+  background: linear-gradient(to right,#9cd0eb,#91ecb7);
+}
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.Chat {
+  border: 3px solid #0e0d0d;
+  
+  
+}
+
+.ChatThread {
+  border: 1px solid #0e0d0d;
+  padding: 10px;
+  max-height: 300px;
+  overflow-y: auto;
+}
+
+.ChatMessage {
+  border: 0.5px solid #0e0d0d;
+  margin-bottom: 10px;
+}
+
+.ChatInput {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border-top: 1px solid #8a4848;
+  cursor: pointer;
+  
+}
+
+.ChatInput input {
+  flex: 1;
+  padding: 5px;
+  margin-right: 10px;
+}
+
+.LikeButton {
+  display: inline-flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.LikeButton svg {
+  margin-right: 5px;
+}
+.EmojiPicker{
+  padding: 5px;
+  margin: 10px;
+  cursor: pointer;
+}
